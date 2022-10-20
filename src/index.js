@@ -4,6 +4,9 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import About from './routes/about.js';
+import Donate from './routes/donate';
+import Blog from './routes/blog';
+import Partner from './routes/partner'
 import {
   BrowserRouter,
   Routes,
@@ -16,6 +19,9 @@ root.render(
     <Routes>
       <Route path="/" element={<App />} />
       <Route path="about" element={<About />} />
+      <Route path="donate" element={<Donate />} />
+      <Route path="blog" element={<Blog />} />
+      <Route path="partner" element={<Partner />} />
   </Routes>
   </BrowserRouter>,
 );

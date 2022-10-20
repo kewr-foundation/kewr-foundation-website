@@ -15,13 +15,19 @@ function navbar() {
         </Link>
         </div>
         <div className='col-1 mt-5'>
+          <Link to="/partner" className='text-white'>
           <h4>Partner</h4>
+          </Link>
         </div>
         <div className='col-1 mt-5'>
+          <Link to="/blog" className='text-white'>
           <h4>Blog</h4>
+          </Link>
         </div>
         <div className='col-1 mt-5'>
-          <h4>Donate</h4>
+          <Link to="/donate" className='text-white'>
+            <h4>Donate</h4>
+            </Link>
         </div>
       </div>
     </div>
