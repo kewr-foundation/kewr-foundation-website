@@ -1,14 +1,15 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from './components/navbar'
-import Body from "./components/body"
-
-
+import Footer from "./components/footer"
+import { Link } from "react-router-dom"
+import Body from './components/body';
 
 function App() {
   return (
     <div className="App">
       <Navbar />
       <Body />
+      <Footer />
     </div>
   );
 }
