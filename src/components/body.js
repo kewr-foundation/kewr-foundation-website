@@ -1,4 +1,7 @@
 import React from 'react'
+import Background from '../assets/background.jpg'
+import Interchain from '../assets/interchain.png'
+import Web3 from '../assets/web3f.png'
 
 function body() {
   return (
@@ -7,9 +10,13 @@ function body() {
             <div className='col-12 mt-5 mb-5 text-center'>
                 <h1>The story begins with several people who are motivated in the development of blockchain technology, but on the one hand are trapped in a complicated love affair. We are determined to facilitate a return to our passion for technology</h1>
             </div>
-            <div className='row text-center mt-5 mb-5'>
-                <div className='col-3'>ATOM</div>
-                <div className='col-3'>IRIS</div>
+            <div className='row text-center mb-5'>
+                <div className='col-2'>
+                  <img src={Interchain} width={290} />
+                </div>
+                <div className='col-2'>
+                  <img src={Web3} width={200} className="mt-4"/>
+                </div>
                 <div className='col-3'>CRESCENT</div>
                 <div className='col-3'>EVMOS</div>
             </div>
